@@ -1,0 +1,72 @@
+
+body{
+    /* background-color: rgb(39, 39, 83); */
+    background-image: url(background_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+
+.main_box{
+    margin-top: 100px;
+    height: 500px;
+    width: 360px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input_name{
+    margin-top: 50px;
+}
+
+.logo_part{
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+}
+
+.name_label{
+    margin-top: 5px;
+    height: 30px;
+    text-align: left;
+}
+
+.text-input .entry_1{
+    height: 40px;
+    margin-top: 2px;
+    width: 100%;
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.dropdown_menu .select_class{
+    height: 40px;
+    width: 100%;
+    background-color: #e9e9e9;
+    padding-left: 5px;
+    
+
+}
+
+.join-main .button{
+    font-size: 15px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0px solid;
+    background-color:blue;
+    color: white;
+    width: 100%;
+    cursor:pointer;
+    transition: 0.8s;
+}
+
+.join-main .button[type="submit"]:hover {
+    background-color: #FF1F5A;
+    transition: 0.5s;
+    /* border: 1px solid red; */
+}
